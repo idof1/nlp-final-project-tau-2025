@@ -1,0 +1,500 @@
+{"num_steps": 11, "step_scores": [1, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 1, "step_scores": [1], "model_answer": "4", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 0.0, 0.0, 0.0], "model_answer": "19501", "ground_truth_answer": "70000", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "541", "ground_truth_answer": "540", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 0.8, 1, 1.0, 0.9, 1, 0.0, 1, 1, 1, 1.0, 1, 1, 1.0, 0.8], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.2, 1.0, 0.0, 0.0, 0.0], "model_answer": "60", "ground_truth_answer": "64", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "261", "ground_truth_answer": "260", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 0.9, 1, 0.0, 0.6, 1, 1.0, 0.4, 1, 1.0, 0.2, 1], "model_answer": "81", "ground_truth_answer": "160", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.8, 1], "model_answer": "316", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1], "model_answer": "461", "ground_truth_answer": "460", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "369", "ground_truth_answer": "366", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "700", "ground_truth_answer": "694", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 0.2, 1, 1.0, 0.8, 1, 0.0, 0.5, 1, 1.0, 0.1, 1], "model_answer": "50", "ground_truth_answer": "13", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "61", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "2970", "ground_truth_answer": "125", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "231", "ground_truth_answer": "230", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "57501", "ground_truth_answer": "57500", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "7", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 1.0, 1, 0.0, 1, 1, 1, 1], "model_answer": "18", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "22", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.0], "model_answer": "30", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "7", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0], "model_answer": "20", "ground_truth_answer": "26", "is_correct": 0}
+{"num_steps": 15, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "240", "ground_truth_answer": "243", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "90", "ground_truth_answer": "104", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "110", "ground_truth_answer": "109", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0], "model_answer": "8", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "30", "ground_truth_answer": "35", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "71", "ground_truth_answer": "70", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "23", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "70", "ground_truth_answer": "75", "is_correct": 0}
+{"num_steps": 18, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 0.0, 1, 1], "model_answer": "11", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.8, 1.0, 0.9], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "50", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 0.0, 1, 0.0, 1.0, 1.0], "model_answer": "201", "ground_truth_answer": "200", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "26", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "54", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.6, 0.4, 0.2, 0.8, 0.0], "model_answer": "100", "ground_truth_answer": "104", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.6, 0.4], "model_answer": "160", "ground_truth_answer": "163", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 0.0, 0.0, 0.0, 0.0], "model_answer": "801", "ground_truth_answer": "800", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "31", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "290", "ground_truth_answer": "294", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.8, 0.7, 0.6, 0.5], "model_answer": "4", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 0.0, 0.0], "model_answer": "61", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "4", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "41", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "0", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1, 1.0, 1], "model_answer": "80", "ground_truth_answer": "83", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1, 1.0, 1], "model_answer": "58", "ground_truth_answer": "57", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "190", "ground_truth_answer": "187", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "20", "ground_truth_answer": "17", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "1425", "ground_truth_answer": "1430", "is_correct": 0}
+{"num_steps": 16, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.0], "model_answer": "26251", "ground_truth_answer": "25000", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 0.8, 1.0, 1.0], "model_answer": "960", "ground_truth_answer": "1596", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 0.9, 1, 1.0, 0.9], "model_answer": "301", "ground_truth_answer": "300", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.8, 0.7, 0.6, 0.5], "model_answer": "30", "ground_truth_answer": "36", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "50", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "700", "ground_truth_answer": "595", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "36", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "61", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "7426", "ground_truth_answer": "7425", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "61", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "220", "ground_truth_answer": "221", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "250", "ground_truth_answer": "255", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "80", "ground_truth_answer": "88", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "61", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "101", "ground_truth_answer": "100", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "7", "ground_truth_answer": "70", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "20", "ground_truth_answer": "17", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "620", "ground_truth_answer": "623", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "601", "ground_truth_answer": "600", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.8, 0.6, 0.4], "model_answer": "40", "ground_truth_answer": "44", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "22", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1, 0.0, 1.0, 1], "model_answer": "7570", "ground_truth_answer": "9360", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0, 0.0], "model_answer": "1000", "ground_truth_answer": "8000", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "24", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 0.9, 1.0, 1.0, 1.0], "model_answer": "220", "ground_truth_answer": "225", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "40", "ground_truth_answer": "28", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "0", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 9, "step_scores": [1, 1, 0.0, 1.0, 0.6, 1, 0.0, 0.0, 0.4], "model_answer": "37", "ground_truth_answer": "36", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "349", "ground_truth_answer": "348", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "4", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "0", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 16, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1, 0.0, 1.0, 0.5, 1, 1, 1, 1, 1.0, 0.5], "model_answer": "0", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 12, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0], "model_answer": "60", "ground_truth_answer": "58", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.9, 0.6, 0.4], "model_answer": "170", "ground_truth_answer": "175", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "26", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "141", "ground_truth_answer": "140", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "501", "ground_truth_answer": "500", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "70", "ground_truth_answer": "72", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "4", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "40", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 0.0, 0.5, 1, 1.0, 0.5], "model_answer": "30", "ground_truth_answer": "28", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.5, 1.0, 0.5, 0.0], "model_answer": "30", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0, 1], "model_answer": "10", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1, 1.0, 1, 1.0, 0.5, 1], "model_answer": "20", "ground_truth_answer": "24", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 0.0], "model_answer": "20", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 0.0, 1, 1.0, 1], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 25, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "9", "ground_truth_answer": "90", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "40", "ground_truth_answer": "42", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "361", "ground_truth_answer": "360", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 19, "step_scores": [1, 1, 1.0, 0.8, 1, 1.0, 0.8, 1, 1.0, 1.0, 1, 1.0, 0.6, 1, 1.0, 0.4, 1, 1.0, 0.2], "model_answer": "99077", "ground_truth_answer": "95200", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "241", "ground_truth_answer": "240", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1], "model_answer": "30", "ground_truth_answer": "27", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.2], "model_answer": "10", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1, 1, 0.0, 1], "model_answer": "51", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 0.0], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "80", "ground_truth_answer": "82", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "121", "ground_truth_answer": "120", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "881", "ground_truth_answer": "880", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "10001", "ground_truth_answer": "10000", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "31", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "941", "ground_truth_answer": "940", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "61", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "10", "ground_truth_answer": "13", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "721", "ground_truth_answer": "720", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "41", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1], "model_answer": "30", "ground_truth_answer": "29", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "106", "ground_truth_answer": "105", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "7", "ground_truth_answer": "70", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "401", "ground_truth_answer": "400", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "141", "ground_truth_answer": "140", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0], "model_answer": "20", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "4001", "ground_truth_answer": "4000", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1, 1], "model_answer": "2120", "ground_truth_answer": "2125", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.8, 1, 1.0, 0.5], "model_answer": "10", "ground_truth_answer": "75", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "31", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1], "model_answer": "4", "ground_truth_answer": "4", "is_correct": 1}
+{"num_steps": 6, "step_scores": [1, 1.0, 1.0, 1.0, 1.0, 1], "model_answer": "0", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "0", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.2, 0.2, 0.2, 0.2], "model_answer": "210", "ground_truth_answer": "272", "is_correct": 0}
+{"num_steps": 22, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1], "model_answer": "281", "ground_truth_answer": "280", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "1401", "ground_truth_answer": "1400", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "141", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "30", "ground_truth_answer": "34", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.6, 0.4], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 0.0, 0.0, 0.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "32", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "90", "ground_truth_answer": "92", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "30", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1, 0.0, 1.0, 1.0, 1.0, 1, 1, 1, 0.0, 1.0, 1.0, 1, 1, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "model_answer": "80", "ground_truth_answer": "77", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "121", "ground_truth_answer": "120", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "151", "ground_truth_answer": "150", "is_correct": 0}
+{"num_steps": 12, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0], "model_answer": "1211", "ground_truth_answer": "1210", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "50", "ground_truth_answer": "51", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0, 1], "model_answer": "18001", "ground_truth_answer": "18000", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "96", "ground_truth_answer": "95", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "101", "ground_truth_answer": "100", "is_correct": 0}
+{"num_steps": 30, "step_scores": [1, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1], "model_answer": "351", "ground_truth_answer": "350", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "120", "ground_truth_answer": "122", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "131", "ground_truth_answer": "130", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1], "model_answer": "161", "ground_truth_answer": "160", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.2, 0.2, 0.2, 0.2, 0.2], "model_answer": "30", "ground_truth_answer": "23", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "0", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "48", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "31", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 0.0, 1, 0.0, 1, 1.0, 1], "model_answer": "27", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "105", "ground_truth_answer": "106", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "34", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "361", "ground_truth_answer": "360", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 22, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1], "model_answer": "90", "ground_truth_answer": "91", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 0.8, 1, 1, 0.6, 1, 1.0, 0.0, 1, 1.0, 1], "model_answer": "0", "ground_truth_answer": "24", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "1", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "121", "ground_truth_answer": "120", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "6278", "ground_truth_answer": "6277", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1], "model_answer": "321", "ground_truth_answer": "320", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 0.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.0, 1], "model_answer": "12501", "ground_truth_answer": "7500", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "50", "ground_truth_answer": "55", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0, 1, 1.0, 1], "model_answer": "109101", "ground_truth_answer": "114200", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "101", "ground_truth_answer": "100", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "31", "is_correct": 0}
+{"num_steps": 19, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1], "model_answer": "100", "ground_truth_answer": "98", "is_correct": 0}
+{"num_steps": 6, "step_scores": [0.8, 0.8, 0.8, 0.8, 0.8, 0.8], "model_answer": "180", "ground_truth_answer": "98", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "861", "ground_truth_answer": "860", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "2601", "ground_truth_answer": "2600", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "75", "ground_truth_answer": "76", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "16801", "ground_truth_answer": "145", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "1", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "6", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "251", "ground_truth_answer": "250", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0], "model_answer": "20", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "40", "ground_truth_answer": "44", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1, 1.0, 1], "model_answer": "221", "ground_truth_answer": "220", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.8, 1, 1.0, 0.0, 1], "model_answer": "50", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "50", "ground_truth_answer": "54", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "71", "ground_truth_answer": "70", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "91", "ground_truth_answer": "90", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "141", "ground_truth_answer": "140", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20001", "ground_truth_answer": "20000", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "181", "ground_truth_answer": "180", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0], "model_answer": "30", "ground_truth_answer": "33", "is_correct": 0}
+{"num_steps": 12, "step_scores": [1, 1, 1.0, 0.8, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "0", "ground_truth_answer": "1", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "276001", "ground_truth_answer": "276000", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 0.8], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "70", "ground_truth_answer": "75", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1, 1.0, 1.0, 0.2], "model_answer": "5", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1, 0.8, 1, 0.0, 0.6], "model_answer": "31", "ground_truth_answer": "31", "is_correct": 1}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "91", "ground_truth_answer": "90", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "70", "ground_truth_answer": "68", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "281", "ground_truth_answer": "280", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.0, 0.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 0.5, 1.0, 0.0], "model_answer": "6", "ground_truth_answer": "6", "is_correct": 1}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "4", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 0.0, 0.5, 1], "model_answer": "251", "ground_truth_answer": "250", "is_correct": 0}
+{"num_steps": 25, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 0.0, 1.0, 1, 1, 1, 1, 1, 0.0, 0.0, 1, 1], "model_answer": "10", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 0.0], "model_answer": "10", "ground_truth_answer": "7", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "27001", "ground_truth_answer": "27000", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "30", "ground_truth_answer": "32", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "301", "ground_truth_answer": "300", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "5601", "ground_truth_answer": "5600", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "0", "ground_truth_answer": "17", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "71", "ground_truth_answer": "70", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "80", "ground_truth_answer": "73", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.6, 1.0], "model_answer": "80", "ground_truth_answer": "84", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "190", "ground_truth_answer": "192", "is_correct": 0}
+{"num_steps": 15, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1], "model_answer": "40", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "5601", "ground_truth_answer": "5600", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1, 1.0, 1], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.0], "model_answer": "121", "ground_truth_answer": "168", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 0.0, 0.0], "model_answer": "6", "ground_truth_answer": "11", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "60", "ground_truth_answer": "62", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "271", "ground_truth_answer": "270", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "401", "ground_truth_answer": "400", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1, 1.0, 1, 1.0, 1.0, 1], "model_answer": "-501", "ground_truth_answer": "9500", "is_correct": 0}
+{"num_steps": 22, "step_scores": [1, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0, 1], "model_answer": "117000", "ground_truth_answer": "118000", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "70", "ground_truth_answer": "91", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "1400", "ground_truth_answer": "1375", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "0", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 9, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1], "model_answer": "760", "ground_truth_answer": "762", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "0", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 21, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 0.0, 1, 1, 1, 1.0, 1.0, 0.0, 1, 1.0, 1.0, 1.0, 0.0], "model_answer": "721", "ground_truth_answer": "315", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "3201", "ground_truth_answer": "3200", "is_correct": 0}
+{"num_steps": 15, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0], "model_answer": "140", "ground_truth_answer": "138", "is_correct": 0}
+{"num_steps": 21, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.8, 0.8, 0.6], "model_answer": "61", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 0.8, 1.0, 0.0], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "8", "ground_truth_answer": "7", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "2451", "ground_truth_answer": "2450", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "190", "ground_truth_answer": "195", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "70", "ground_truth_answer": "68", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "241", "ground_truth_answer": "360", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "91", "ground_truth_answer": "90", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "4", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "17", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1, 1, 1, 1, 1], "model_answer": "391", "ground_truth_answer": "390", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.8, 0.8, 1.0, 0.8], "model_answer": "70", "ground_truth_answer": "75", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 0.0, 1.0, 0.0], "model_answer": "80", "ground_truth_answer": "83", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "0", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "351", "ground_truth_answer": "370", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "0", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1, 1, 1, 1, 1], "model_answer": "50", "ground_truth_answer": "55", "is_correct": 0}
+{"num_steps": 12, "step_scores": [1, 1, 1.0, 1, 1, 1, 1, 1, 1.0, 1, 1.0, 1], "model_answer": "351", "ground_truth_answer": "500", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "61801", "ground_truth_answer": "31800", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "80", "ground_truth_answer": "78", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.6, 0.4, 0.3], "model_answer": "30", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 0.0, 0.0, 0.0], "model_answer": "3601", "ground_truth_answer": "1300", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "3201", "ground_truth_answer": "3200", "is_correct": 0}
+{"num_steps": 1, "step_scores": [1.0], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "1", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 0.2], "model_answer": "10", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0], "model_answer": "17", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.0], "model_answer": "3051", "ground_truth_answer": "2050", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "30", "ground_truth_answer": "91", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "30", "ground_truth_answer": "32", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "138001", "ground_truth_answer": "120000", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0], "model_answer": "10", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1.0, 1, 1, 1, 1, 1, 1, 1], "model_answer": "15", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 12, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 1], "model_answer": "150", "ground_truth_answer": "156", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "120", "ground_truth_answer": "123", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "1", "ground_truth_answer": "1", "is_correct": 1}
+{"num_steps": 14, "step_scores": [1, 1, 1, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.0], "model_answer": "140", "ground_truth_answer": "75", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "224001", "ground_truth_answer": "224000", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1], "model_answer": "30", "ground_truth_answer": "31", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 1, "step_scores": [0.0], "model_answer": "10", "ground_truth_answer": "14", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "30", "ground_truth_answer": "31", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.9, 1], "model_answer": "8401", "ground_truth_answer": "8400", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "40", "ground_truth_answer": "44", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "101", "ground_truth_answer": "100", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "311", "ground_truth_answer": "310", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "70", "ground_truth_answer": "72", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "2", "ground_truth_answer": "1", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "51", "ground_truth_answer": "60", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1], "model_answer": "161", "ground_truth_answer": "160", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0, 1, 1.0, 1], "model_answer": "10", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.9], "model_answer": "201", "ground_truth_answer": "260", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "80", "ground_truth_answer": "87", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.9, 1.0, 1.0], "model_answer": "180001", "ground_truth_answer": "180000", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "311", "ground_truth_answer": "310", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "36", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "11", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "2641", "ground_truth_answer": "2640", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1, 1, 1, 1], "model_answer": "1", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 0.0, 0.0, 0.0], "model_answer": "7", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "40", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "34", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 7, "step_scores": [0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2], "model_answer": "0", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1, 1.0, 1, 1.0, 1], "model_answer": "2", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "20", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 0.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "40", "ground_truth_answer": "23", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.0, 0.0, 0.0, 0.0], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "50", "ground_truth_answer": "49", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.8, 1.0], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1, 0.0, 0.0, 0.0, 0.0], "model_answer": "0", "ground_truth_answer": "19", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1.0, 0.6, 1, 1.0, 0.6, 1, 1.0, 0.6], "model_answer": "14", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "1300", "ground_truth_answer": "1198", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "319", "ground_truth_answer": "320", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "101", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "6", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1], "model_answer": "240001", "ground_truth_answer": "240000", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "40", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "50", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "20", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "800", "ground_truth_answer": "803", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "70", "ground_truth_answer": "67", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "351", "ground_truth_answer": "350", "is_correct": 0}
+{"num_steps": 26, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.5, 1, 1.0, 0.0, 1], "model_answer": "21", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "32", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "81", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "36", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "90", "ground_truth_answer": "88", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "27", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 1, "step_scores": [0.0], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 0.5, 0.5, 0.0], "model_answer": "40", "ground_truth_answer": "34", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1, 1.0, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1.0], "model_answer": "43", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 0.5, 1, 1.0, 0.0], "model_answer": "90", "ground_truth_answer": "92", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "40", "ground_truth_answer": "38", "is_correct": 0}
+{"num_steps": 9, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0], "model_answer": "0", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "170", "ground_truth_answer": "168", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "50", "ground_truth_answer": "48", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "14401", "ground_truth_answer": "14400", "is_correct": 0}
+{"num_steps": 18, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1.0, 1, 1.0, 1, 1.0, 1, 1, 1, 1, 1, 1, 1.0, 1], "model_answer": "54001", "ground_truth_answer": "81", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "30", "ground_truth_answer": "22", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 0.0, 1, 1.0, 0.0, 1, 1.0, 0.0, 1], "model_answer": "141", "ground_truth_answer": "200", "is_correct": 0}
+{"num_steps": 16, "step_scores": [1, 1, 0.0, 0.6, 1, 0.0, 0.4, 1, 0.0, 0.3, 1, 0.0, 0.2, 1, 1.0, 1], "model_answer": "1001", "ground_truth_answer": "2000", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 0.5, 1, 1.0, 1], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "42001", "ground_truth_answer": "168000", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 0.5, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1.0, 1, 1.0, 1.0, 1], "model_answer": "4", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1], "model_answer": "1111", "ground_truth_answer": "1110", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "6", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "1250001", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "54", "ground_truth_answer": "56", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "360", "ground_truth_answer": "350", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "50", "ground_truth_answer": "56", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1, 1, 1.0, 1, 1, 1, 1, 1], "model_answer": "3141", "ground_truth_answer": "3140", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "4", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "3001", "ground_truth_answer": "3000", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "17001", "ground_truth_answer": "17000", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "12", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 0.0, 0.0], "model_answer": "210", "ground_truth_answer": "284", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1, 0.5, 1, 1.0, 0.0, 1, 1.0, 0.0, 1, 1.0, 0.0, 1], "model_answer": "17", "ground_truth_answer": "8", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "571", "ground_truth_answer": "570", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 0.8, 1, 0.0, 0.6, 1, 1.0, 0.4, 1, 1.0, 0.2, 1], "model_answer": "151", "ground_truth_answer": "150", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.8, 0.7, 1.0, 0.9], "model_answer": "10", "ground_truth_answer": "11", "is_correct": 0}
+{"num_steps": 16, "step_scores": [1, 1, 1, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.0, 1.0, 0.0, 1, 1.0, 0.0, 1], "model_answer": "134", "ground_truth_answer": "150", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 0.0, 1.0, 0.6, 1, 1.0, 1.0, 0.8, 0.0, 1.0, 1.0, 0.7], "model_answer": "0", "ground_truth_answer": "26", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "13", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1], "model_answer": "130", "ground_truth_answer": "132", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "0", "ground_truth_answer": "1", "is_correct": 0}
+{"num_steps": 11, "step_scores": [1, 1, 1.0, 0.0, 1, 1.0, 0.0, 1, 1.0, 0.0, 1], "model_answer": "1", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.2, 0.8, 1.0, 1.0, 0.6], "model_answer": "54", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.8, 0.7, 0.6, 0.5, 0.4], "model_answer": "60", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1, 1.0, 1], "model_answer": "0", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "10", "ground_truth_answer": "15", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "7", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 0.0, 1.0, 0.0, 1, 1.0, 1.0, 1.0, 1, 1.0, 1.0, 0.0], "model_answer": "10", "ground_truth_answer": "17", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.2, 0.2, 0.2], "model_answer": "33", "ground_truth_answer": "98", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "81", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 0.0], "model_answer": "51", "ground_truth_answer": "49", "is_correct": 0}
+{"num_steps": 10, "step_scores": [1, 1.0, 1, 1, 1, 0.0, 1, 1, 0.0, 1], "model_answer": "10", "ground_truth_answer": "59", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "10", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1], "model_answer": "540", "ground_truth_answer": "539", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "110", "ground_truth_answer": "112", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "3", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "11051", "ground_truth_answer": "11050", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "51", "ground_truth_answer": "50", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 0.8, 1, 1.0, 0.9, 1, 1.0, 0.9, 1, 1.0, 0.9, 1], "model_answer": "6401", "ground_truth_answer": "6400", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "241", "ground_truth_answer": "150", "is_correct": 0}
+{"num_steps": 5, "step_scores": [0.8, 0.7, 0.6, 0.5, 0.4], "model_answer": "1921", "ground_truth_answer": "1920", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 0.0], "model_answer": "116", "ground_truth_answer": "78", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "40", "ground_truth_answer": "45", "is_correct": 0}
+{"num_steps": 26, "step_scores": [1, 0.0, 1.0, 1.0, 1, 0.0, 1.0, 1.0, 1, 1, 1.0, 1.0, 1, 1, 1.0, 0.0, 1, 1, 1.0, 0.0, 1, 1, 1.0, 0.0, 1, 1], "model_answer": "0", "ground_truth_answer": "35", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "3", "ground_truth_answer": "2", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1], "model_answer": "80", "ground_truth_answer": "84", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "9", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "70", "ground_truth_answer": "71", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1, 1.0, 1.0, 1, 1.0, 1.0], "model_answer": "20", "ground_truth_answer": "18", "is_correct": 0}
+{"num_steps": 13, "step_scores": [1, 1, 0.0, 0.8, 1, 1.0, 1.0, 1, 1.0, 0.9, 1, 1.0, 1], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 17, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "31", "ground_truth_answer": "30", "is_correct": 0}
+{"num_steps": 16, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 0.0, 0.0], "model_answer": "101", "ground_truth_answer": "1", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "1201", "ground_truth_answer": "1200", "is_correct": 0}
+{"num_steps": 20, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1.0, 1.0, 1, 1, 1, 0.0, 1.0, 0.8, 1], "model_answer": "21", "ground_truth_answer": "120", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 4, "step_scores": [0.0, 0.0, 0.0, 0.0], "model_answer": "-2", "ground_truth_answer": "3", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "81", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "12", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "1", "ground_truth_answer": "10", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "81", "ground_truth_answer": "80", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "11", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "10", "ground_truth_answer": "5", "is_correct": 0}
+{"num_steps": 3, "step_scores": [0.0, 0.0, 0.0], "model_answer": "21", "ground_truth_answer": "20", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "620", "ground_truth_answer": "621", "is_correct": 0}
+{"num_steps": 5, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "15401", "ground_truth_answer": "15400", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "10", "ground_truth_answer": "11", "is_correct": 0}
+{"num_steps": 8, "step_scores": [1, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "80", "ground_truth_answer": "84", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1, 1], "model_answer": "30", "ground_truth_answer": "26", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 0.0], "model_answer": "-41", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "241", "ground_truth_answer": "240", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "219", "ground_truth_answer": "220", "is_correct": 0}
+{"num_steps": 1, "step_scores": [0.0], "model_answer": "10", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "0", "ground_truth_answer": "6", "is_correct": 0}
+{"num_steps": 2, "step_scores": [0.8, 0.6], "model_answer": "-10", "ground_truth_answer": "-10", "is_correct": 1}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "5", "ground_truth_answer": "4", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1.0, 1, 1], "model_answer": "20", "ground_truth_answer": "16", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "30", "ground_truth_answer": "32", "is_correct": 0}
+{"num_steps": 14, "step_scores": [1, 1, 1.0, 0.5, 1, 1.0, 0.5, 1, 1.0, 1.0, 1, 1.0, 1.0, 1], "model_answer": "70", "ground_truth_answer": "25", "is_correct": 0}
+{"num_steps": 6, "step_scores": [0.8, 0.8, 0.8, 1.0, 0.8, 0.8], "model_answer": "50", "ground_truth_answer": "21", "is_correct": 0}
+{"num_steps": 2, "step_scores": [1.0, 1.0], "model_answer": "201", "ground_truth_answer": "200", "is_correct": 0}
+{"num_steps": 3, "step_scores": [1.0, 1.0, 1.0], "model_answer": "40", "ground_truth_answer": "38", "is_correct": 0}
+{"num_steps": 6, "step_scores": [1, 1, 1.0, 1.0, 1, 1], "model_answer": "110", "ground_truth_answer": "112", "is_correct": 0}
+{"num_steps": 4, "step_scores": [1.0, 1.0, 1.0, 1.0], "model_answer": "41", "ground_truth_answer": "40", "is_correct": 0}
+{"num_steps": 7, "step_scores": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], "model_answer": "1", "ground_truth_answer": "10", "is_correct": 0}

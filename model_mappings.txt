@@ -1,0 +1,10 @@
+To shorten file names, note the mappings below from a number to the type of data the base model was fine-tuned on.
+
+
+Model Number, type of data fine-tuned on
+
+
+1, correct_steps_correct_answer
+2, wrong_steps_correct_answer
+3, correct_steps_wrong_answer
+4, base_model
