@@ -1,22 +1,37 @@
-# generate_phi.py
+"""Generate chain-of-thought solutions using a Phi LoRA adapter."""
+
 import json
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from tqdm import tqdm
+import logging
+import os
+from typing import Final
+
 import torch
 from huggingface_hub import login
-
 from peft import PeftModel
-login(token="") # enter token
+from tqdm import tqdm
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+
+logger = logging.getLogger(__name__)
+
+HF_TOKEN_ENV: Final[str] = "HF_TOKEN"
+
+token = os.getenv(HF_TOKEN_ENV, "")
+if token:
+    login(token=token)
+else:
+    logger.warning(
+        "Environment variable %s not set; proceeding without Hugging Face login.", HF_TOKEN_ENV
+    )
 BASE_MODEL = "microsoft/Phi-3.5-mini-instruct"
-ADAPTER_DIR = "phi_model"    
+ADAPTER_DIR = "phi_model"
 
 # ========================
 # Paths & settings
 # ========================
-INPUT_FILE = "data/parsed_data/questions_for_inference.jsonl"
-OUTPUT_FILE = "outputs_phi.jsonl"
-MAX_NEW_TOKENS = 1024
-TEMPERATURE = 0.1
+INPUT_FILE: Final[str] = "data/parsed_data/questions_for_inference.jsonl"
+OUTPUT_FILE: Final[str] = "outputs_phi.jsonl"
+MAX_NEW_TOKENS: Final[int] = 1024
+TEMPERATURE: Final[float] = 0.1
 
 # Load tokenizer from base model
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, trust_remote_code=True, use_fast=True)
@@ -38,11 +53,12 @@ base_model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True,
 )
 base_model.eval()
-base_model.resize_token_embeddings(len(tokenizer)) 
+base_model.resize_token_embeddings(len(tokenizer))
 
 # Load LoRA adapter on top
 model = PeftModel.from_pretrained(base_model, ADAPTER_DIR)
 model.eval()
+
 
 # ========================
 # Prompt & generation
@@ -54,10 +70,11 @@ question:
 {problem}
 """
 
+
 def generate_solution(problem: str) -> str:
     prompt = make_prompt(problem)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-    
+
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
@@ -66,34 +83,37 @@ def generate_solution(problem: str) -> str:
             do_sample=True,
             use_cache=False,  # disable the cache to avoid DynamicCache error
         )
-    
+
     # Decode generated tokens after the prompt
-    generated_tokens = outputs[0][inputs["input_ids"].shape[1]:]
+    generated_tokens = outputs[0][inputs["input_ids"].shape[1] :]
     solution = tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
-    
+
     return solution
 
-# ========================
-# Read input, generate, write output
-# ========================
-results = []
-NOT_COMPLETED_CNT = 0
-with open(INPUT_FILE, "r") as f:
-    for line in tqdm(f, desc="Generating"):
-        obj = json.loads(line)
-        problem = obj["question"]
-        solution = generate_solution(problem)
-        if not solution:
-            NOT_COMPLETED_CNT += 1
-        results.append({
-            "question": problem,
-            "solution": solution
-        })
 
-print("Times not completed a full answer: ", NOT_COMPLETED_CNT)
+def main() -> None:
+    """Read questions, generate solutions, and save them as JSONL."""
+    logging.basicConfig(level=logging.INFO)
 
-with open(OUTPUT_FILE, "w") as out_f:
-    for r in results:
-        out_f.write(json.dumps(r) + "\n")
+    results: list[dict[str, str]] = []
+    not_completed_cnt = 0
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        for line in tqdm(f, desc="Generating"):
+            obj = json.loads(line)
+            problem = obj["question"]
+            solution = generate_solution(problem)
+            if not solution:
+                not_completed_cnt += 1
+            results.append({"question": problem, "solution": solution})
 
-print(f"✓ Finished generation. Outputs saved to {OUTPUT_FILE}")
+    logger.info("Times not completed a full answer: %d", not_completed_cnt)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
+        for result in results:
+            out_f.write(json.dumps(result, ensure_ascii=False) + "\n")
+
+    logger.info("Finished generation. Outputs saved to %s", OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+    main()

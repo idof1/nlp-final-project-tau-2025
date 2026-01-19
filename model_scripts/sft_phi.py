@@ -1,54 +1,72 @@
+"""QLoRA 4-bit supervised fine-tuning for Phi-3.5-mini-instruct using SFTConfig."""
+
+# ruff: noqa: E402
 # sft.py
 # QLoRA 4-bit SFT for Phi-3.5-mini-instruct using chat roles + SFTConfig
 
 # =========================
 # Global configuration
 # =========================
-BASE_MODEL   = "microsoft/Phi-3.5-mini-instruct"
+BASE_MODEL = "microsoft/Phi-3.5-mini-instruct"
 
-TRAIN_PATH   = "data/parsed_data/wrong_steps_correct_answer_train.jsonl"
-DEV_PATH     = "data/parsed_data/evaluation_set.jsonl"
+TRAIN_PATH = "data/parsed_data/wrong_steps_correct_answer_train.jsonl"
+DEV_PATH = "data/parsed_data/evaluation_set.jsonl"
 
-OUTPUT_DIR   = "phi_model"
+OUTPUT_DIR = "phi_model"
 
-SEED         = 42
-MAX_SEQ_LEN  = 1024
-EPOCHS       = 1
-BATCH_SIZE   = 1
-GRAD_ACCUM   = 8
-LEARNING_RATE= 7e-5
+SEED = 42
+MAX_SEQ_LEN = 1024
+EPOCHS = 1
+BATCH_SIZE = 1
+GRAD_ACCUM = 8
+LEARNING_RATE = 7e-5
 WARMUP_STEPS = 100
 
-LORA_R       = 16
-LORA_ALPHA   = 32
+LORA_R = 16
+LORA_ALPHA = 32
 LORA_DROPOUT = 0.05
 
 MAX_TRAIN_EXAMPLES = None
-MAX_EVAL_EXAMPLES  = None
+MAX_EVAL_EXAMPLES = None
 # =========================
 
-import os, random, argparse
+import argparse
+import logging
+import os
+import random
 from typing import Optional
+
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 
 import datasets
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from trl import SFTTrainer, SFTConfig
 
+logger = logging.getLogger(__name__)
+
+
 # ---------- CLI ----------
-def parse_args():
-    p = argparse.ArgumentParser(description="QLoRA SFT with optional sampling of train/dev examples.")
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(
+        description="QLoRA SFT with optional sampling of train/dev examples."
+    )
     p.add_argument("--train_path", type=str, default=TRAIN_PATH)
     p.add_argument("--dev_path", type=str, default=DEV_PATH)
     p.add_argument("--output_dir", type=str, default=OUTPUT_DIR)
     p.add_argument("--seed", type=int, default=SEED)
 
-    p.add_argument("--max_train_examples", type=lambda x: None if x=="None" else int(x),
-                   default=MAX_TRAIN_EXAMPLES)
-    p.add_argument("--max_eval_examples", type=lambda x: None if x=="None" else int(x),
-                   default=MAX_EVAL_EXAMPLES)
+    p.add_argument(
+        "--max_train_examples",
+        type=lambda x: None if x == "None" else int(x),
+        default=MAX_TRAIN_EXAMPLES,
+    )
+    p.add_argument(
+        "--max_eval_examples",
+        type=lambda x: None if x == "None" else int(x),
+        default=MAX_EVAL_EXAMPLES,
+    )
 
     p.add_argument("--epochs", type=int, default=EPOCHS)
     p.add_argument("--batch_size", type=int, default=BATCH_SIZE)
@@ -62,9 +80,12 @@ def parse_args():
     p.add_argument("--lora_dropout", type=float, default=LORA_DROPOUT)
     return p.parse_args()
 
+
 # ---------- IO ----------
-def load_jsonl(path: str):
+def load_jsonl(path: str) -> datasets.Dataset:
+    """Load a JSONL file into a Hugging Face Dataset."""
     return datasets.load_dataset("json", data_files=path, split="train")
+
 
 def limit_dataset(ds: datasets.Dataset, n: Optional[int], seed: int) -> datasets.Dataset:
     """Shuffle with seed and take first n (if provided)."""
@@ -75,17 +96,21 @@ def limit_dataset(ds: datasets.Dataset, n: Optional[int], seed: int) -> datasets
         return ds.shuffle(seed=seed)
     return ds.shuffle(seed=seed).select(range(n))
 
+
 # ---------- Formatting ----------
-def format_dataset(ds: datasets.Dataset, tokenizer, max_seq_len: int):
+def format_dataset(
+    ds: datasets.Dataset, tokenizer: AutoTokenizer, max_seq_len: int
+) -> datasets.Dataset:
     """
     Converts {"question", "solution"} -> {"input_ids", "labels"} (token IDs) for SFTTrainer.
     Labels are masked for the prompt part.
     """
-    def map_fn(example):
+
+    def map_fn(example: dict) -> dict:
         prompt = f"""You are an expert mathematician. Solve the following problem step by step, numbering each step like "Step 1:", "Step 2:", etc.
 
 Problem:
-{example['question']}
+{example["question"]}
 """
         # Combine prompt + solution
         full_text = prompt + example["solution"]
@@ -101,10 +126,10 @@ Problem:
 
         # Labels: mask prompt with -100 so loss is computed only on solution
         prompt_len = len(tokenizer(prompt, truncation=True, max_length=max_seq_len)["input_ids"])
-        labels = [-100]*prompt_len + input_ids[prompt_len:]
+        labels = [-100] * prompt_len + input_ids[prompt_len:]
 
         # Ensure labels same length as input_ids
-        labels = labels[:len(input_ids)]
+        labels = labels[: len(input_ids)]
 
         return {"input_ids": input_ids, "attention_mask": attention_mask, "labels": labels}
 
@@ -112,7 +137,8 @@ Problem:
 
 
 # ---------- Main ----------
-def main():
+def main() -> None:
+    logging.basicConfig(level=logging.INFO)
     args = parse_args()
     random.seed(args.seed)
 
@@ -134,9 +160,9 @@ def main():
         eval_ds = limit_dataset(eval_ds, args.max_eval_examples, args.seed)
         eval_ds = format_dataset(eval_ds, tokenizer, args.max_seq_len)
 
-    print(f"Train examples: {len(train_ds)}")
+    logger.info("Train examples: %d", len(train_ds))
     if eval_ds is not None:
-        print(f"Eval examples:  {len(eval_ds)}")
+        logger.info("Eval examples: %d", len(eval_ds))
 
     # --- 4-bit QLoRA base ---
     bnb_config = BitsAndBytesConfig(
@@ -199,7 +225,8 @@ def main():
 
     trainer.train()
     trainer.save_model(args.output_dir)
-    print(f"✓ Saved LoRA adapter to {args.output_dir}")
+    logger.info("Saved LoRA adapter to %s", args.output_dir)
+
 
 if __name__ == "__main__":
     main()

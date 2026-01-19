@@ -1,23 +1,24 @@
+"""Parse verifier critiques into numeric step scores and correctness labels."""
+
 import json
-from typing import Dict, List, Tuple, Optional
+import logging
 import re
+from typing import Dict, List, Optional, Tuple
+
+logger = logging.getLogger(__name__)
 
 
 def extract_final_answer(text: str) -> Optional[str]:
-    """
-    Extracts the number after 'final answer:' (case-insensitive).
-    Allows commas inside numbers, and supports negatives.
-    Returns the number as a string with commas removed.
-    """
+    """Extract the numeric value after 'final answer:' as a normalized string."""
     match = re.search(r"final answer:\s*(-?[\d,]+(?:\.\d+)?)", text, re.IGNORECASE)
     if match:
         return match.group(1).replace(",", "")
-    print("No final answer found.")
+    logger.warning("No final answer found in critique segment.")
     return None
 
 
 def split_steps(text: str) -> Tuple[Dict[int, str], List[str], int]:
-
+    """Split a critique into numbered steps and collect parsing warnings."""
     trimmed = text.lstrip("\n\r\t ")
     step_pat = re.compile(r"\bStep\s+(\d+)\b", re.IGNORECASE)
     matches = [(int(m.group(1)), m.start(), m.end()) for m in step_pat.finditer(text)]
@@ -27,7 +28,8 @@ def split_steps(text: str) -> Tuple[Dict[int, str], List[str], int]:
         steps = {i + 1: chunk for i, chunk in enumerate(chunks)}
         max_step = len(steps)
         errors = [
-            f"No 'Step X' markers found or text does not start with 'Step 1'. Split into {max_step} chunks by \\n\\n."]
+            f"No 'Step X' markers found or text does not start with 'Step 1'. Split into {max_step} chunks by \\n\\n."
+        ]
         return steps, errors, max_step
 
     matches.sort(key=lambda t: t[1])  # sort by position
@@ -41,7 +43,7 @@ def split_steps(text: str) -> Tuple[Dict[int, str], List[str], int]:
         # find first "Step i" at or after last_pos
         start_match = next((m for m in matches if m[0] == i and m[1] >= last_pos), None)
         if not start_match:
-            msg = f"⚠️ Step {i} not found after position {last_pos}."
+            msg = f"Warning: Step {i} not found after position {last_pos}."
             errors.append(msg)
             continue
 
@@ -63,26 +65,33 @@ def split_steps(text: str) -> Tuple[Dict[int, str], List[str], int]:
             if i == max_step:
                 end = len(text)  # last step goes to end
             else:
-                msg = f"⚠️ Couldn't find Step {i+1} (or any Step > {i}) after Step {i} at pos {start}. Taking until end."
+                msg = (
+                    f"Warning: Could not find Step {i + 1} (or any Step > {i}) after "
+                    f"Step {i} at position {start}. Taking until end."
+                )
                 errors.append(msg)
                 end = len(text)
 
         steps[i] = text[start:end].strip()
         last_pos = end
 
+    for err in errors:
+        logger.warning(err)
+
     return steps, errors, max_step
 
 
-def fetch_score(step_text: str):
+def fetch_score(step_text: str) -> float:
+    """Extract a numeric score for a single critique step, defaulting to 1.0."""
     # patterns to match
     patterns = [
-        (r"\*\*Score:\*\*\s*([-+]?\d*\.?\d+)", None),      # **Score:** 3.5
-        (r"boxed\{([-+]?\d*\.?\d+)\}", None),              # boxed{3.5}
-        (r"Score:\*\*\s*([-+]?\d*\.?\d+)", None),          # Score:** 3.5
-        (r"Score:\s*([-+]?\d*\.?\d+)", None),              # Score: 3.5
+        (r"\*\*Score:\*\*\s*([-+]?\d*\.?\d+)", None),  # **Score:** 3.5
+        (r"boxed\{([-+]?\d*\.?\d+)\}", None),  # boxed{3.5}
+        (r"Score:\*\*\s*([-+]?\d*\.?\d+)", None),  # Score:** 3.5
+        (r"Score:\s*([-+]?\d*\.?\d+)", None),  # Score: 3.5
         (r"the score for this step is\s*([-+]?\d*\.?\d+)", None),  # the score for this step is 3.5
-        (r"score is\s*([-+]?\d*\.?\d+)", None),            # score is 3.5
-        (r"\\boxed\{correct\}", 1.0),                      # \boxed{correct} → score 1
+        (r"score is\s*([-+]?\d*\.?\d+)", None),  # score is 3.5
+        (r"\\boxed\{correct\}", 1.0),  # \boxed{correct} → score 1
     ]
 
     for pat, fixed_value in patterns:
@@ -94,51 +103,54 @@ def fetch_score(step_text: str):
     lowered = step_text.lower()
     if "correct" in lowered:
         return 1.0
-    elif "incorrect" in lowered:
+    if "incorrect" in lowered:
         return 0.0
-    elif "mistake" in lowered:
+    if "mistake" in lowered:
         return 0.0
-    elif "issue" in lowered:
+    if "issue" in lowered:
         return 0.0
-    elif "not" in lowered:
+    if "not" in lowered:
         return 0.0
-    elif "inaccurate" in lowered:
+    if "inaccurate" in lowered:
         return 0.0
-    elif "accurate" in lowered:
+    if "accurate" in lowered:
         return 1.0
-    # if nothing matched
-    print("⚠️ Warning score found in step:\n", step_text)
-    return 1
+
+    logger.warning("Score pattern not found in step; defaulting score to 1.0.")
+    return 1.0
 
 
-def main(input_file, output_file, test_file):
+def main(input_file: str, output_file: str, test_file: str) -> None:
+    """Parse critiques into structured scores aligned with ground-truth answers."""
     # load ground truth answers
-    ground_truths = []
+    ground_truths: List[Optional[str]] = []
     with open(test_file, "r", encoding="utf-8") as tf:
         for line in tf:
             obj = json.loads(line)
             sol = obj.get("solution", "")
-            ground_truths.append(extract_final_answer(sol))
+            ground_truths.append(extract_final_answer(str(sol)))
 
-    with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8") as outfile:
+    with (
+        open(input_file, "r", encoding="utf-8") as infile,
+        open(output_file, "w", encoding="utf-8") as outfile,
+    ):
         for i, line in enumerate(infile):
             obj = json.loads(line)
-            critique = obj.get("critique", "")
+            critique = str(obj.get("critique", ""))
             # slice before "final answer"
             idx = critique.lower().find("final answer")
             if idx != -1:
                 critique = critique[:idx]
 
-            steps, errors, max_step = split_steps(critique)
+            steps, _, max_step = split_steps(critique)
 
-            scores = []
+            scores: List[float] = []
             for j in range(1, max_step + 1):
                 score = fetch_score(steps[j])
-
                 scores.append(score)
 
             # extract answers
-            model_answer = extract_final_answer(line)   # from input_file entry
+            model_answer = extract_final_answer(line)  # from input_file entry
             ground_truth = ground_truths[i] if i < len(ground_truths) else None
 
             # compare (numeric if possible)
@@ -159,17 +171,11 @@ def main(input_file, output_file, test_file):
 
             outfile.write(json.dumps(new_obj, ensure_ascii=False) + "\n")
 
+
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     for i in range(1, 5):
         input_f = f"verifier_outputs/model_{i}_outputs_verified.jsonl"
         output = f"parsed_verifier_critiques/model_{i}_results.jsonl"
         test_f = "data/parsed_data/questions_for_inference.jsonl"
         main(input_f, output, test_f)
-
-
-
-
-
-
-
-
