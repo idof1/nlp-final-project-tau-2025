@@ -1,9 +1,31 @@
+[project]
+name = "cot-reasoning-under-data-corruption"
+version = "1.0.0"
+description = "NLP final project: testing the causal role of chain-of-thought reasoning via data corruption"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "transformers>=4.43",
+    "peft>=0.11",
+    "trl>=0.9",
+    "bitsandbytes>=0.43",
+    "datasets>=2.19",
+    "huggingface_hub",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+verify = ["vllm>=0.4"]
+
 [tool.ruff]
 target-version = "py310"
 line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = ["E402"]  # module-level imports not at top (needed in sft_phi.py)
 
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
 line-ending = "auto"
-

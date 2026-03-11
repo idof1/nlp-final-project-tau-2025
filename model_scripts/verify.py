@@ -34,7 +34,9 @@ def count_lines(path: str) -> int:
 def flush_buffer_to_file(buffer: List[Dict[str, Any]], out_path: str) -> None:
     """Append buffered JSON objects to a file and clear the buffer."""
     mode = "a" if os.path.exists(out_path) else "w"
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    parent = os.path.dirname(out_path)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
     with open(out_path, mode, encoding="utf-8") as of:
         for item in buffer:
             of.write(json.dumps(item, ensure_ascii=False) + "\n")
